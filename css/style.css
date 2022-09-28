@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face{
+
+    font-family: Oswald;   
+    src: url(Oswald.ttf);
+ 
+    
+    }
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    color: rgb(247, 155, 64);   
+    padding: 10px 20px;
+    align-items: center;
+    height: 120px;
+
+}
+.menu-right {
+    font-size: 30px;
+    display: flex;
+    padding-top: 0.5em;
+}
+.logo  img{
+    width: 200px;
+    height: 100px;
+    display: flex;  
+    filter: drop-shadow(1px 1px 1px rgba(235, 232, 232, 0.233));
+    padding-left: 30px;
+
+}
+.menu-right .name{
+    padding-top: .8em;
+}
+
+header>nav>ul {
+    display: flex;
+    list-style-type: none; 
+    gap: 15px; 
+}
+ul li{
+    font-size: 20px;
+}
+ul > li>a {
+    text-decoration: none;
+    color: rgb(247, 155, 64);
+    font-family:Oswald;
+}
+.menu .nav-item .nav-link:hover {
+    color: rgb(20, 11, 1); 
+}
+header .name h2 {
+    font-family:Oswald;
+}
+.banner-principal {
+    display:flex;
+    flex-direction: column;
+    background:url('/img/cuidados.jpg'),rgba(216, 190, 190, 0.356);
+    background-blend-mode: color;
+    box-sizing: border-box;
+    height: 80vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-size: large;
+    color:  rgb(255, 255, 255);   
+    padding: 7%;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: 50px;
+    padding-top: 0.5em;
+
+}
+
+.formulario{
+padding: 10em 10em 10em 10em;
+background-color: rgb(230, 189, 148); 
+
+}
+
+.banner-principal .info-foto {
+    color:  rgb(68, 65, 63); 
+    font-size: xx-large;
+     
+}
+.banner-principal .info-foto p { 
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    justify-content: flex-end;
+    font-size: 50px;
+}
+
+
+
+
+
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+padding-top: 0.5em;
+}
+
+
+
+.card-header h3{
+color:  rgb(247, 155, 64); 
+display: flex;
+justify-content: center;
+}
+
+
+
+.input-group-prepend span{
+width: 50px;
+background-color: rgb(253, 252, 251); ;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: rgb(247, 155, 64); 
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+
+.links a{
+margin-left: 4px;
+color: white;
+}
+.input-buscar{
+
+    height: auto;
+    display:flex;
+    justify-content: center;
+    padding: 200px;
+    
+
+}
+.input-buscar{
+
+border: 2px rgb(8, 8, 8); }
+
+footer{
+    background-color:  rgb(247, 155, 64);
+    padding-top: .5em;
+}
+.proyectos{
+    width: 20em;
+    height: 25em;
+    padding-left: 5em;
+    padding-bottom: 10em;
+}
+.proyectos .card img{
+ height: 15em;
+ padding-top: .5em;
+}
+.proyectos .card-title{
+    padding-top: 10em;
+    color: beige;
+
+}
+.proyectos .btn{
+    background-color:  rgb(247, 155, 64);
+}
